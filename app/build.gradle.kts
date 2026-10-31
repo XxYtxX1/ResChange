@@ -18,9 +18,10 @@ android {
     buildFeatures {
         buildConfig = true
         viewBinding = true
-        aidlPackagedList += listOf("com/reschange/app/IRemoteService.aidl")
     }
-    buildFeatures.aidl = true
+    buildFeatures {
+        aidl = true
+    }
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
