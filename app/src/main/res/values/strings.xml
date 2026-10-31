@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ResChange</string>
+    <string name="channel_id">reschange_status</string>
+    <string name="channel_name">Resolution Status</string>
+    <string name="notif_active">Custom resolution is active</string>
+    <string name="notif_tap_reset">Tap to reset to original</string>
+</resources>
